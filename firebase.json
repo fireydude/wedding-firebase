@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src",
+    "public": "dist/wedding-firebase",
     "ignore": [
       "firebase.json",
       "**/.*",
