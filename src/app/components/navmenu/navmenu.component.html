@@ -1,0 +1,43 @@
+<div class='main-nav'>
+    <div class='navbar navbar-inverse'>
+        <div class='navbar-header'>
+            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+                <span class='sr-only'>Toggle navigation</span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' [routerLink]="['/home']">Brian and Laura's Wedding</a>
+        </div>
+        <div class='clearfix'></div>
+        <div class='navbar-collapse collapse'>
+            <ul class='nav navbar-nav'>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/day']">
+                        <span class='glyphicon glyphicon-heart'></span> The Day
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/travel']">
+                        <span class='glyphicon glyphicon-plane'></span> Travel
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/accomodation']">
+                        <span class='glyphicon glyphicon-bed'></span> Accomodation
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/invite']">
+                        <span class='glyphicon glyphicon-envelope'></span> RSVP
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/gift']">
+                        <span class='glyphicon glyphicon-gift'></span> Gifts
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
