@@ -1,3 +1,11 @@
 .headline {
     padding: 20px;
+    opacity: 0.3;
+    margin-left: 50px;
+}
+#day {
+    background-image: url('../../../assets/paneramic.jpeg');
+    height: 1000px;
+    margin-top: -20px;
+    margin-left: -40px;
 }

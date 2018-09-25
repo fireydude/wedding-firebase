@@ -1,0 +1,11 @@
+.page-header {
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.7;
+}
+#gallery {
+    background-image: url('../../../assets/walking.jpeg');
+    height: 1000px;
+    margin-left: -35px;
+    margin-top: -40px;
+}
